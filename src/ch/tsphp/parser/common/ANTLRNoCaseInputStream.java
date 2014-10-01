@@ -43,7 +43,7 @@ public class ANTLRNoCaseInputStream extends ANTLRInputStream
     }
 
     @Override
-    @SuppressWarnings({"PMD.MethodNamingConventions", "PMD.ShortMethodName", "checkstyle:methodname"})
+    @SuppressWarnings({ "PMD.MethodNamingConventions", "PMD.ShortMethodName", "checkstyle:methodname" })
     public int LA(final int lookAhead) {
 
         int token = super.LA(lookAhead);
