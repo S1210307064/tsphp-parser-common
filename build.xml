@@ -9,7 +9,7 @@
     <property environment="env" />
     <import file="${basedir}/ant/build-common.xml" as="common"/>
     <import file="${basedir}/ant/copyCommon.xml" as="cp"/>
-    <import file="${basedir}/ant/copyQA.xml" as="cp"/>
+    <import file="${basedir}/ant/copyQA.xml" as="copy"/>
 
     <target name="cp.all" depends="cp.common"/>
 
